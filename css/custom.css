@@ -1412,14 +1412,16 @@
         display: none;
     }
 
-    /* the industries we serve end*/
+    /* crousel arrows */
+    .quotes-slider-card-text-right-quote img {
+        height: 25px;
 
+    }
 
-    /* Number section start */
+    .quotes-slider-card-text-left-quote img {
+        height: 25px;
 
-
-
-    /* Number section end */
+    }
 
 }
 
@@ -1515,5 +1517,20 @@
 
     .fea-num-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* crousel quotes */
+    .quotes-slider-card-text-right-quote img {
+        height: 20px;
+
+    }
+
+    .quotes-slider-card-text-left-quote img {
+        height: 20px;
+
+    }
+
+    .quotes-slider-card-text>p {
+        font-weight: 14px;
     }
 }
