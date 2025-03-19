@@ -758,6 +758,19 @@
     padding: 10px 40px;
 }
 
+
+/* .quotes-slider-card-img {
+    aspect-ratio: 2/1;
+    height: 100%;
+    width: 100%;
+}
+
+.quotes-slider-card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
 /* how it works */
 
 
@@ -1350,5 +1363,11 @@
 
     .Link {
         text-align: center;
+    }
+
+    .quotes-slider-card-text>p {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 0;
     }
 }

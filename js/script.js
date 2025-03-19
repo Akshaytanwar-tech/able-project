@@ -1,25 +1,3 @@
-// how it works toggle
-
-// document.querySelectorAll(".how-it-works-toggle").forEach((button) => {
-//   button.addEventListener("click", () => {
-//     const content = button.nextElementSibling;
-//     const isActive = button.classList.contains("how-it-works-active");
-
-//     document
-//       .querySelectorAll(".how-it-works-toggle")
-//       .forEach((btn) => btn.classList.remove("how-it-works-active"));
-//     document
-//       .querySelectorAll(".how-it-works-content")
-//       .forEach((cnt) => cnt.classList.add("how-it-works-hidden"));
-
-//     if (!isActive) {
-//       button.classList.add("how-it-works-active");
-//       content.classList.remove("how-it-works-hidden");
-//     }
-//   });
-// });
-
-
 // Accordian togger
 function toggleAccordion(header) {
   const content = header.nextElementSibling;
@@ -75,6 +53,11 @@ var splide1 = new Splide("#crousel1", {
   pagination: false,
   padding: { left: "10%", right: "10%" },
   gap: "10px",
+  breakpoints: {
+    768: {
+      perPage: 1, // For screens smaller than 768px
+    },
+  },
 });
 
 splide1.mount();
@@ -88,3 +71,5 @@ var splide2 = new Splide("#quotes-slider", {
 });
 
 splide2.mount();
+
+// Mobile menu toggler
