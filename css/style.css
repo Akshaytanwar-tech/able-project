@@ -474,6 +474,8 @@ body {
     cursor: pointer;
     position: relative;
     padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .services-grid-card:hover {
@@ -691,14 +693,13 @@ body {
 .slider .splide__arrows {
     position: absolute;
     bottom: -56px;
-    left: 45%;
+    left: 50%;
 
 }
 
 .slider .splide__arrow--next {
     opacity: 1;
     padding: 24px;
-    left: 80px;
     background: var(--heading--color);
 }
 
@@ -707,6 +708,8 @@ body {
     padding: 24px;
     background: var(--heading--color);
 }
+
+
 
 /* // location section */
 
@@ -854,11 +857,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 60px;
 }
 
-.quotes-slider-card-text {
-    margin-top: 100px;
-}
 
 .quotes-slider-card-text>p {
     font-weight: 500;
@@ -1288,7 +1289,7 @@ body {
         text-align: center;
     }
 
-    .services-grid{
+    .services-grid {
         width: 100%;
     }
 
@@ -1399,11 +1400,25 @@ body {
     /* Service section start */
 
     .services-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 
     /* Service section end */
+
+    /* the industries we serve start*/
+
+
+
+    .slider .splide__arrows {
+        display: none;
+    }
+
+    .quotes .splide__arrows {
+        display: none;
+    }
+
+    /* the industries we serve end*/
 
 
     /* Number section start */
@@ -1418,5 +1433,9 @@ body {
 
 /* For devices with a maximum width of 480px */
 @media (max-width: 480px) {
-    /* Add your styles here */
+
+    /* services section */
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
 }
