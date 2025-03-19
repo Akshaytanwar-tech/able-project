@@ -1498,4 +1498,8 @@
     .quotes-slider-card-text-left-quote {
         left: -36px;
     }
+
+    .last-line {
+        text-align: center;
+    }
 }
