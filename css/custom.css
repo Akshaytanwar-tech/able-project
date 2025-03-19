@@ -759,17 +759,17 @@
 }
 
 
-/* .quotes-slider-card-img {
+.quotes-slider-card-img {
     aspect-ratio: 2/1;
     height: 100%;
     width: 100%;
 }
 
-.quotes-slider-card-img {
+.quotes-slider-card-img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-} */
+}
 
 /* how it works */
 
@@ -1369,5 +1369,11 @@
         max-width: 100%;
         font-size: 16px;
         padding: 0;
+    }
+    .quotes-slider-card-text-right-quote{
+        right: -36px;
+    }
+    .quotes-slider-card-text-left-quote{
+        left: -36px;
     }
 }
