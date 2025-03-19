@@ -545,6 +545,8 @@
     padding: 30px;
     border-radius: 21px;
     box-shadow: 15px 18px rgba(210, 210, 210, 0.58);
+    /* width: fit-content;
+    margin: 0 auto; */
 }
 
 .fea-num-grid-card h2 {
@@ -1431,8 +1433,18 @@
     /* services section */
     .services-grid {
         grid-template-columns: 1fr;
+        gap: 30px;
     }
 
+    .services-in {
+        row-gap: 40px;
+
+    }
+
+    .services-top {
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
 
     /* Footer Section */
 
