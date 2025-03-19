@@ -3,10 +3,12 @@ const nav = document.getElementById("mob-nav-main");
 const navClose = document.getElementById("mob-nav-close-button");
 
 hamburger.addEventListener("click", () => {
-  nav.classList.toggle("mob-active");
+  nav.classList.add("mob-active");
+  document.body.classList.add("no-scroll");
 });
 navClose.addEventListener("click", () => {
-  nav.classList.toggle("mob-active");
+  nav.classList.remove("mob-active");
+  document.body.classList.remove("no-scroll");
 });
 
 // Accordian togger
