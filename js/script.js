@@ -1,3 +1,14 @@
+const hamburger = document.getElementById("hamburger");
+const nav = document.getElementById("mob-nav-main");
+const navClose = document.getElementById("mob-nav-close-button");
+
+hamburger.addEventListener("click", () => {
+  nav.classList.toggle("mob-active");
+});
+navClose.addEventListener("click", () => {
+  nav.classList.toggle("mob-active");
+});
+
 // Accordian togger
 function toggleAccordion(header) {
   const content = header.nextElementSibling;

@@ -89,13 +89,12 @@ body {
     font-family: 'Satoshi';
 }
 
+a {
+    text-decoration: none;
+}
 
-:root {
-    --heading--color: rgba(18, 60, 123, 1);
-    --sub-heading--color: rgba(54, 54, 54, 1);
-    --sec-background--color: rgba(248, 248, 248, 1);
-    --white--color: rgba(255, 255, 255, 1);
-    --card--bg--color: rgba(230, 243, 231, 1);
+ul, li {
+    list-style: none;
 }
 
 .container-fluid {
