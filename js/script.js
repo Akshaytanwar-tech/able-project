@@ -68,6 +68,11 @@ var splide2 = new Splide("#quotes-slider", {
   type: "loop",
   rewind: true,
   pagination: false,
+  breakpoints: {
+    768: {
+      pagination: true, // For screens smaller than 768px
+    },
+  },
 });
 
 splide2.mount();
