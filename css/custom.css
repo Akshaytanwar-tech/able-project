@@ -1418,7 +1418,7 @@
      */
 
     .footer-logo-sec {
-        padding: 0 80px;
+        padding-right: 35%;
         text-align: center;
     }
 
@@ -1434,7 +1434,7 @@
     }
 
     .fo-sec-3-bottom {
-        padding-top: 10px;
+        padding-top: 30px;
     }
 
     /* Footer section end */
