@@ -128,6 +128,18 @@
     padding: 26px 0;
 }
 
+.nav-link-bottom-line {
+    position: absolute;
+    height: 3px;
+    bottom: 20px;
+    background: blue;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.head-bot-ri-nav-link:hover .nav-link-bottom-line {
+    width: 100%;
+}
 
 .nav-dropdown {
     position: absolute;
