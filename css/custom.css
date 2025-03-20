@@ -538,6 +538,12 @@
 .Features {
     position: relative;
     overflow: hidden;
+    background-image: url(../img/Rectangle\ 148\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 372px;
+    padding-top: 180px;
+    background-size: 95%;
 }
 
 .feature-outside {
@@ -1010,6 +1016,15 @@
 
 /* Quote section */
 
+.Quote-form {
+    background-image: url(../img/Rectangle\ 147.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+    padding-top: 195px;
+    padding-bottom: 78px;
+
+}
 
 .Quote-form-in {
     background-color: #fff;
@@ -1197,6 +1212,19 @@
 
 
 /* Resposiveness for the mobile */
+@media (max-width: 1280px) {
+    .Features {
+        background-image: none;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .Quote-form {
+        background-image: none;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
 
 /* For devices with a maximum width of 1024px */
 @media (max-width: 1024px) {
