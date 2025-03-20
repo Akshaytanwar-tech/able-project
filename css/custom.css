@@ -15,25 +15,6 @@
     z-index: 888;
 }
 
-.midnight-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    font-size: 2rem;
-}
-
-.midnight-section:nth-child(odd) {
-    background-color: #000;
-    color: #fff;
-}
-
-.midnight-section:nth-child(even) {
-    background-color: #fff;
-    color: #000;
-}
-
 /* Header section */
 
 
