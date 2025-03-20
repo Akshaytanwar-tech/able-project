@@ -7,6 +7,14 @@
 }
 
 
+/* Fixed imageg get help */
+.get-helt-img {
+    position: fixed;
+    right: 76px;
+    bottom: 13px;
+    z-index: 888;
+}
+
 /* Header section */
 
 
@@ -693,6 +701,9 @@
 }
 
 
+.slider {
+    padding-bottom: 80px;
+}
 
 /* // location section */
 
@@ -1105,14 +1116,16 @@
 }
 
 .footer-logo-sec {
-    margin-right: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
 }
 
 .footer-logo-sec p {
-    margin-top: 34px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 100%;
+    line-height: 120%;
     letter-spacing: 0px;
     max-width: 22ch;
 }
@@ -1364,6 +1377,15 @@
     /* how-it-works section end
      */
 
+    .footer-logo-sec {
+        padding: 0 80px;
+        text-align: center;
+    }
+
+    .footer-logo-sec p {
+        max-width: 100%;
+    }
+
     /* Footer section start */
 
     .footer-in {
@@ -1423,6 +1445,18 @@
 
     }
 
+    .slider {
+        padding-bottom: 0px;
+    }
+
+    .get-helt-img {
+        right: 56px;
+    }
+
+    .get-helt-img img {
+        height: 64px;
+    }
+
 }
 
 /* For devices with a maximum width of 480px */
@@ -1440,7 +1474,10 @@
         font-size: 24px;
     }
 
-
+    /* Hero section */
+    .last-line {
+        text-align: center;
+    }
 
     /* services section */
     .services-grid {
@@ -1478,8 +1515,8 @@
     }
 
     .footer-logo-sec {
-        margin-right: 0;
-        text-align: center;
+        padding: 0;
+
     }
 
     .footer-logo-sec p {
@@ -1497,6 +1534,15 @@
         text-align: center;
     }
 
+
+
+
+
+    .fea-num-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* crousel quotes secton*/
     .quotes-slider-card-text>p {
         max-width: 100%;
         font-size: 16px;
@@ -1511,15 +1557,6 @@
         left: -36px;
     }
 
-    .last-line {
-        text-align: center;
-    }
-
-    .fea-num-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* crousel quotes */
     .quotes-slider-card-text-right-quote img {
         height: 20px;
 
@@ -1533,4 +1570,15 @@
     .quotes-slider-card-text>p {
         font-weight: 14px;
     }
+
+    /* // get help image */
+    .get-helt-img {
+        right: 35px;
+    }
+
+    .get-helt-img img {
+        height: 50px;
+        width: 38px;
+    }
+
 }
