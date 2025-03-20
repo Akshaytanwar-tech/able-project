@@ -1,6 +1,7 @@
 const hamburger = document.getElementById("hamburger");
 const nav = document.getElementById("mob-nav-main");
 const navClose = document.getElementById("mob-nav-close-button");
+const getHelp = document.getElementsByClassName("get-helt-img");
 
 hamburger.addEventListener("click", () => {
   nav.classList.add("mob-active");
@@ -91,3 +92,6 @@ var splide2 = new Splide("#quotes-slider", {
 splide2.mount();
 
 // Mobile menu toggler
+
+// mid nite js for the get help
+
