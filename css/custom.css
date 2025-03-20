@@ -1581,4 +1581,10 @@
         width: 38px;
     }
 
+    /* Accordian section  */
+
+    .accordion-header span {
+        font-size: 24px;
+    }
+
 }
